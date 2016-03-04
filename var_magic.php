@@ -8,7 +8,7 @@ class Base {
 trait SayWorld {
     public function sayHello() {
         parent::sayHello();
-        echo 'World!';
+        echo 'World! <br>';
     }
 }
 
@@ -18,4 +18,9 @@ class MyHelloWorld extends Base {
 
 $o = new MyHelloWorld();
 $o->sayHello();
+
+echo __FILE__."<br>";
+
+echo __DIR__."<br>";
+
 ?>
