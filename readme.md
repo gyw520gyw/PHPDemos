@@ -39,6 +39,8 @@ lianxi/datetest.php<br>
 
 2016.03.08<br>
 综合练习 article<br>
-参考慕课网
+
+2016.03.10<br>
+综合练习 添加发布文章功能<br>
 
 
