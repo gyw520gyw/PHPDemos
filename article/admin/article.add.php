@@ -34,7 +34,7 @@
                     <tr>
                         <td width="100">简介</td>
                         <td>
-                            <textarea name="desc" id="desc" cols="60" rows="5"></textarea>
+                            <textarea name="desc" id="description" cols="60" rows="5"></textarea>
                         </td>
                     </tr>
                     <tr>

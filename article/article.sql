@@ -1,4 +1,4 @@
-CREATE DATABASE article;
+CREATE DATABASE article  CHARACTER SET utf8;
 
 USE article;
 

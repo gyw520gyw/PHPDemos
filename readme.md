@@ -38,9 +38,22 @@ date函数练习<br>
 lianxi/datetest.php<br>
 
 2016.03.08<br>
-综合练习 article<br>
+综合练习  文章管理小项目<br>
+参考慕课网 article 建立各个文件<br>
+完成:<br>
+config.php<br>
+connect.php
 
 2016.03.10<br>
 综合练习 添加发布文章功能<br>
+article.add.php<br>
+article.add.handle.php<br>
+
+2016.03.11<br>
+综合练习 添加管理文章功能<br>
+article.manage.php<br>
+article.del.handle.php<br>
+article.modify.php<br>
+article.modify.handle.php<br>
 
 

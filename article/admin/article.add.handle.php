@@ -13,10 +13,10 @@ if (empty($_POST['title'])) {
 } else {
     $title = $_POST['title'];
     $author = $_POST['author'];
-    $desc = $_POST['desc'];
+    $description = $_POST['description'];
     $content = $_POST['content'];
 
-    $sql = "insert into articletable (title, author, description, content) values ('$title','$author','$desc','$content')";
+    $sql = "insert into articletable (title, author, description, content) values ('$title','$author','$description','$content')";
 
 //    echo $sql;
 
