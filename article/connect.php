@@ -14,7 +14,8 @@ if($conn->connect_error) {
     die("连接数据库失败! ".$conn->connect_error);
 }
 
-if(!$conn->query("set names utf8")) {
+
+if(!$conn->set_charset("utf8")) {
     echo "设置字符集错误!";
 }
 
