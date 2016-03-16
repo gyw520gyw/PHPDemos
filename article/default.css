@@ -188,7 +188,7 @@ input, textarea, select {
 .post .title {
 	margin-bottom: 20px;
 	padding-bottom: 5px;
-	border-bottom: 10px solid #EDEDED;
+	border-bottom: 2px solid #EDEDED;
 }
 
 .post .entry {
@@ -196,7 +196,8 @@ input, textarea, select {
 
 .post .meta {
 	margin: 0;
-	padding: 0 0 60px 0;
+	padding: 0 0 100px 0;
+	/*padding-bottom: 100px;*/
 	background: url(images/img04.jpg) repeat-x left 30%;
 }
 
@@ -211,7 +212,7 @@ input, textarea, select {
 }
 
 .post .meta .links {
-	float: left;
+	float: right;
 }
 
 .post .meta .more {

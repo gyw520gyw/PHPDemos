@@ -2,8 +2,8 @@
 <?php
 require_once ('config.php');
 require_once('connect.php');
-
-$sql = "select * from articletable order by create_time desc ;";
+$key = $_GET['key'];
+$sql = "select * from articletable where title like '%$key%' order by create_time desc ";
 $result = $conn->query($sql);
 //var_dump($result);
 if($result->num_rows > 0) {
@@ -38,26 +38,26 @@ if($result->num_rows > 0) {
 <div id="page">
     <div id="content">
         <?php
-            if(empty($data)) {
-                echo "当前没有文章!";
-            } else {
-                foreach($data as $item) {
-        ?>
+        if(empty($data)) {
+            echo "当前没有文章!";
+        } else {
+            foreach($data as $item) {
+                ?>
 
-                    <div class="post">
-                        <h1 class="title"><?php echo $item['title']?><br>
+                <div class="post">
+                    <h1 class="title"><?php echo $item['title']?><br>
                         <span style="color:#ccc; font-size: 14px">作者: <?php echo $item['author']?> &nbsp; &nbsp; &nbsp; 时间: <?php echo $item['create_time']?></span>
-                        </h1>
-                        <div class="entry">
-                            <?php echo $item['description']?>
-                        </div>
-                        <div class="meta">
-                            <p class="links"><a href="article.show.php?id=<?php echo $item['id']?>" class="more">查看详情</a>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</p>
-                        </div>
+                    </h1>
+                    <div class="entry">
+                        <?php echo $item['description']?>
                     </div>
-        <?php
-                }
+                    <div class="meta">
+                        <p class="links"><a href="article.show.php?id=<?php echo $item['id']?>" class="more">查看详情</a>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</p>
+                    </div>
+                </div>
+                <?php
             }
+        }
         ?>
     </div>
 

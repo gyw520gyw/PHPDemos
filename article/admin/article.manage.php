@@ -29,7 +29,8 @@ if ($result->num_rows > 0) {
     </tr>
     <tr>
         <td width="20%" height="500" align="center" valign="top" bgcolor="#22FFFF00">
-            <a href="article.add.php">发布文章</a>
+            <a href="article.add.php">发布文章</a><br>
+            <a href="../article.list.php">前台</a>
         </td>
         <td width="80%" valign="top" bgcolor="#FFFFFF">
             <form action="article.add.handle.php" method="post">

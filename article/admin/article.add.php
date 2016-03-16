@@ -11,7 +11,8 @@
     </tr>
     <tr>
         <td width="20%" height="500" align="center" valign="top" bgcolor="#22FFFF00">
-            <a href="article.manage.php">管理文章</a>
+            <a href="article.manage.php">管理文章</a><br>
+            <a href="../article.list.php">前台</a>
         </td>
         <td width="80%" valign="top" bgcolor="#FFFFFF">
             <form action="article.add.handle.php" method="post">
@@ -34,7 +35,7 @@
                     <tr>
                         <td width="100">简介</td>
                         <td>
-                            <textarea name="desc" id="description" cols="60" rows="5"></textarea>
+                            <textarea name="description" id="description" cols="60" rows="5"></textarea>
                         </td>
                     </tr>
                     <tr>

@@ -57,5 +57,11 @@ article.modify.php<br>
 article.modify.handle.php<br>
 
 2016.03.15<br>
+综合练习 前台展示<br>
 default.css<br>
 article.list.php<br>
+
+2016.03.16
+综合练习 前台展示完成,详情显示,搜索
+article.show.php
+article.search.php
