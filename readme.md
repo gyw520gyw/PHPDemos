@@ -61,7 +61,9 @@ article.modify.handle.php<br>
 default.css<br>
 article.list.php<br>
 
-2016.03.16
-综合练习 前台展示完成,详情显示,搜索
-article.show.php
-article.search.php
+2016.03.16<br>
+综合练习 前台展示完成,详情显示,搜索<br>
+article.show.php<br>
+article.search.php<br>
+
+
