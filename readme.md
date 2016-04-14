@@ -66,4 +66,7 @@ article.list.php<br>
 article.show.php<br>
 article.search.php<br>
 
+2016.04.14<br>
+修改过滤器实例filter2.php
+
 
